@@ -1,0 +1,29 @@
+[33mcommit cdd0f68adbb86e5cc7111d68a70e942be3dd88b1[m[33m ([m[1;36mHEAD -> [m[1;32mfunctions[m[33m)[m
+Author: Arun Murali <arunmuraliam.707@gmail.com>
+Date:   Tue Jul 14 13:17:12 2020 -0700
+
+    all added
+
+[33mcommit 69a2fd733a0e99a9bdceba6edbeb62438f74918b[m
+Author: Arun Murali <arunmuraliam.707@gmail.com>
+Date:   Tue Jul 14 13:14:30 2020 -0700
+
+    functions added for operations
+
+[33mcommit b9934f2de705c440a1f552820219ed3977ff6c6a[m[33m ([m[1;32mmaster[m[33m)[m
+Author: Arun Murali <arunmuraliam.707@gmail.com>
+Date:   Mon Jul 13 17:43:35 2020 -0700
+
+    Buttons are added
+
+[33mcommit 6253712ab382f77483419026a22bd7f8c1fa1602[m
+Author: Arun Murali <arunmuraliam.707@gmail.com>
+Date:   Mon Jul 13 17:26:32 2020 -0700
+
+    entry widget is added
+
+[33mcommit d7ff29d1c8be9688b983bbd5eb58e3de75128248[m
+Author: Arun Murali <arunmuraliam.707@gmail.com>
+Date:   Mon Jul 13 17:19:49 2020 -0700
+
+    frame created

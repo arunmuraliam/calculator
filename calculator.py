@@ -1,5 +1,5 @@
 from tkinter import *
-
+import math
 
 
 root = Tk()
@@ -185,6 +185,7 @@ btnZero=Button(calc,text="0",width=6,height=2,font=('arial',16,'bold'),bd=4,bg="
 btnDot=Button(calc,text=".",width=6,height=2,font=('arial',16,'bold'),bd=4,bg="white").grid(row=6,column=1,pady=1)
 
 btnEquals=Button(calc,text="=",width=6,height=2,font=('arial',16,'bold'),bd=4,bg="light grey").grid(row=6,column=2,pady=1)
+
 
 
 root.mainloop()
