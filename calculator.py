@@ -120,11 +120,13 @@ class Calculator():
         self.display(self.current)
 
 
-added_value = Calculator()
+added_value = Calculator()     # assigning the class Calculator() to added_value
+
 # ============================= Entry widget is created ===================================================
 
 txtDisplay = Entry(calc, font=('arial', 16, 'bold'), bd=20, width=28, justify=RIGHT)
 txtDisplay.grid(row=0, column=0, columnspan=5, pady=1)
+txtDisplay.bind("<Key>", lambda e: "break")     # Disable characters from keyboard
 txtDisplay.insert(0, "0")
 
 # ======================================  Buttons are added ==============================================
@@ -145,7 +147,7 @@ for j in range(3, 6):
 
 # Buttons for operations
 
-# ==============================================================================================================
+# =============================================================================================================
 
 btnDelete = Button(calc, text="DEL", width=6, height=2, font=('arial', 16, 'bold'), bd=4, bg="light gray",
                    command=added_value.delectBS).grid(row=1, column=0, pady=1)
